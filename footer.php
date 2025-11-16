@@ -21,7 +21,6 @@
 <?php wp_reset_query();if (is_single() || is_page() || is_archive() || is_search() || is_404()) { ?>
 <div class="footer_bottom_a">
 	Copyright <?php echo comicpress_copyright(); ?> <?php bloginfo('name'); ?>&nbsp;&nbsp;保留所有权利.
-	&nbsp;&nbsp;备案号:<a target="_blank" href="http://www.beian.miit.gov.cn">沪ICP备12037083号</a>
 	&nbsp;&nbsp;Theme by <a target="_blank" href="http://zmingcx.com" title="主题：知更鸟">Robin</a>
 	<?php echo stripslashes(get_option('swt_track_code')); ?>
 	<big class="lb"></big>
@@ -47,7 +46,6 @@
 <!-- end: link -->
 <div class="footer_bottom">
 	Copyright <?php echo comicpress_copyright(); ?> <?php bloginfo('name'); ?>&nbsp;&nbsp;保留所有权利.
-	&nbsp;&nbsp;备案号:<a target="_blank" href="http://www.beian.miit.gov.cn">沪ICP备12037083号</a>
 	&nbsp;&nbsp;Theme by <a target="_blank" href="http://zmingcx.com" title="主题：知更鸟">Robin</a>
 	<?php echo stripslashes(get_option('swt_track_code')); ?>
 </div>

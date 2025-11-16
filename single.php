@@ -43,7 +43,7 @@
 					<?php if (get_option('swt_ad_r') == '关闭') { ?>
 					<?php { echo ''; } ?>
 					<?php } else { include(TEMPLATEPATH . '/includes/ad_r.php'); } ?>
-					<?php the_content('Read more...'); ?>
+               <?php the_content('Read more...'); ?>
 					<?php wp_link_pages(array('before' => '<div class="page-links">', 'after' => '', 'next_or_number' => 'next', 'previouspagelink' => '<span>上一页</span>', 'nextpagelink' => "")); ?><?php wp_link_pages(array('before' => '', 'after' => '', 'next_or_number' => 'number', 'link_before' =>'<span>', 'link_after'=>'</span>')); ?>
 					<?php wp_link_pages(array('before' => '', 'after' => '</div>', 'next_or_number' => 'next', 'previouspagelink' => '', 'nextpagelink' => "<span>下一页</span>")); ?>
 				</div>
